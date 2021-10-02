@@ -6,8 +6,8 @@ module.exports = {
   mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
-     template: './src/index.html',
-     inject: 'head',
+      template: './src/index.html',
+      inject: 'head',
     }),
   ],
   output: {
@@ -15,7 +15,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  
+
   module: {
     rules: [
       {
@@ -28,6 +28,5 @@ module.exports = {
       },
     ],
   },
-  
-  
+
 };
