@@ -3,7 +3,6 @@
   import _ from 'lodash';
 
 const container = document.querySelector('.list-container');
-alert('it is work')
 const todoList = [
   {
     index: 0,
@@ -31,7 +30,6 @@ const todoList = [
 ];
 
 const display = () => {
-    alert('hello')
   todoList.forEach((item) => {
     const containerItems = `
     <div class="task">
